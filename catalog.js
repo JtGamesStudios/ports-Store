@@ -1,0 +1,13 @@
+// Catálogo da JT STORE. Edite este arquivo para adicionar jogos.
+const RECENT_DAYS=7; /* por quantos dias um jogo novo fica em Adicionados recentemente */
+/* CATÁLOGO: todos os jogos são grátis. Para adicionar um jogo, inclua um objeto aqui e a página dele é criada sozinha.
+   added:'AAAA-MM-DD' = dia em que o jogo entrou na loja (ele aparece em Adicionados recentemente por RECENT_DAYS dias). dest:1 = aparece no Jogo destaque.
+   Imagens reais (opcionais): img:{banner:'url',icon:'url',shots:['url','url']}. Sem elas, usa a arte gerada. */
+const G=[
+ {id:'box',added:'2025-03-20',n:'Box Clube',s:'Cartas de futebol',e:'⚽',a:'L',ad:'Conteúdo livre',c1:'#1db954',c2:'#0b3d2a',dest:1,date:'2025-03-14',gen:'Esporte, Cartas',size:'180 MB',ver:'1.4.2',cap:['Seu time','Abrindo pacotes','Partida'],d:'Monte seu time colecionando cartas de jogadores, abra pacotes e dispute partidas rápidas. Novos jogadores e eventos chegam toda semana.'},
+ {id:'drive',added:'2025-11-25',n:'JT World Drive',s:'Cidade aberta em 3D',e:'🚗',a:'10',ad:'Violência fantasiosa',c1:'#ff7a18',c2:'#7a1f0b',dest:1,date:'2025-11-20',gen:'Corrida, Mundo aberto',size:'320 MB',ver:'0.9.0',cap:['Centro da cidade','Estrada','Garagem'],d:'Dirija por uma cidade gerada de forma procedural, sem rotas fixas. Explore ruas, avenidas e estradas no seu ritmo.'},
+ {id:'under',added:'2026-09-20',n:'Underbound',s:'Aventura de pixel art',e:'🗡️',a:'12',ad:'Violência fantasiosa',c1:'#8e44ff',c2:'#26104d',dest:1,date:'2026-12-12',gen:'Aventura, Pixel art',size:'95 MB',ver:'0.5.0',cap:['Calabouço','Chefe','Inventário'],d:'Desça às profundezas de um mundo subterrâneo em uma aventura retrô cheia de segredos, chefes e escolhas.'},
+ {id:'bus',added:'2026-08-10',n:'Ônibus Brasil',s:'Simulador de ônibus',e:'🚌',a:'L',ad:'Conteúdo livre',c1:'#f5c518',c2:'#5c4300',date:'2026-08-05',gen:'Simulação',size:'410 MB',ver:'0.3.1',cap:['Terminal','Na estrada','Painel'],d:'Conduza ônibus em linhas urbanas e rodoviárias com painel funcional, sons e paradas com passageiros.'},
+ {id:'kart',added:'2026-10-01',n:'Kart Titãs',s:'Corrida estilo PS1',e:'🏁',a:'L',ad:'Conteúdo livre',c1:'#ff3d71',c2:'#4a0d22',date:'2027-02-20',gen:'Corrida, Retrô',size:'120 MB',ver:'—',cap:['Largada','Pista','Pódio'],d:'Corrida de kart com visual poligonal dos anos 90, pistas coloridas e muita velocidade.'},
+ {id:'clk',added:'2026-09-30',n:'Clicker JT',s:'Clique e evolua',e:'👆',a:'L',ad:'Conteúdo livre',c1:'#26bbff',c2:'#0a3550',dest:1,date:'2026-09-18',gen:'Casual, Clicker',size:'60 MB',ver:'1.0.0',cap:['Início','Melhorias','Ranking'],d:'Um clicker diferente do comum, para celular e PC, com evolução rápida e metas diárias.'}
+];
